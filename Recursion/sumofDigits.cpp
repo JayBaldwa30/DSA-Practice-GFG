@@ -10,7 +10,7 @@ int sumofDigitsofNumber(int n)
     }
     return sumofDigitsofNumber(n / 10) + n % 10;
 }
-s
+
 int main()
 {
     int n = 10101;
